@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Vtigerdamcode]" guice-stage="DEVELOPMENT" verbose="2">
+  <parameter name="password" value="admin"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="username" value="admin"/>
+  <test thread-count="5" name="SalesSuite(failed)" verbose="2">
+    <classes>
+      <class name="com.eva.vtiger.testscripts.MarketingAccountTestScripts">
+        <methods>
+          <include name="verifyVT005AccountEditable"/>
+          <include name="beforeTestcase"/>
+          <include name="verifyVT001CreateAccount"/>
+          <include name="afterTestTag"/>
+          <include name="afterTestCase"/>
+          <include name="beforeSuite"/>
+          <include name="verifyVT004DuplicateAccount"/>
+          <include name="verifyVT002DeleteAccount"/>
+          <include name="beforeClass"/>
+          <include name="beforeTestCase"/>
+          <include name="verifyVT003SearchAccount"/>
+          <include name="afterSuite"/>
+          <include name="beforeTestTag"/>
+          <include name="afterTestcase"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.eva.vtiger.testscripts.MarketingAccountTestScripts -->
+    </classes>
+  </test> <!-- SalesSuite(failed) -->
+</suite> <!-- Failed suite [Vtigerdamcode] -->

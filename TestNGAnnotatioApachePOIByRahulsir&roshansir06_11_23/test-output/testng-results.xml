@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="0" failed="0" skipped="5">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-26T13:26:54 IST" name="Vtigerdamcode" finished-at="2023-10-26T13:27:02 IST" duration-ms="7817">
+    <groups>
+    </groups>
+    <test started-at="2023-10-26T13:26:54 IST" name="SalesSuite" finished-at="2023-10-26T13:27:02 IST" duration-ms="7817">
+      <class name="com.eva.vtiger.testscripts.MarketingAccountTestScripts">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:26:54 IST" name="beforeSuite" finished-at="2023-10-26T13:26:54 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTestTag()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:26:54 IST" name="beforeTestTag" finished-at="2023-10-26T13:26:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestTag -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:26:54 IST" name="beforeClass" finished-at="2023-10-26T13:26:59 IST" duration-ms="4870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeTestCase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:26:59 IST" name="beforeTestCase" finished-at="2023-10-26T13:27:02 IST" duration-ms="2732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method is-config="true" signature="beforeTestcase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="beforeTestcase" finished-at="2023-10-26T13:27:02 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at com.eva.vtiger.testscripts.BaseTest.beforeTestcase(BaseTest.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestcase -->
+        <test-method signature="verifyVT005AccountEditable()[pri:-2, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="verifyVT005AccountEditable" finished-at="2023-10-26T13:27:02 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at com.eva.vtiger.testscripts.BaseTest.beforeTestcase(BaseTest.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVT005AccountEditable -->
+        <test-method is-config="true" signature="afterTestCase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="afterTestCase" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698307022058" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCase -->
+        <test-method is-config="true" signature="afterTestcase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="afterTestcase" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698307022060" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestcase -->
+        <test-method is-config="true" signature="beforeTestCase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="beforeTestCase" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698307022065" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method is-config="true" signature="beforeTestcase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="beforeTestcase" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698307022067" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestcase -->
+        <test-method signature="verifyVT004DuplicateAccount()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="verifyVT004DuplicateAccount" finished-at="2023-10-26T13:27:02 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at com.eva.vtiger.testscripts.BaseTest.beforeTestcase(BaseTest.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVT004DuplicateAccount -->
+        <test-method is-config="true" signature="afterTestCase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="afterTestCase" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698307022111" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCase -->
+        <test-method is-config="true" signature="afterTestcase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="afterTestcase" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698307022114" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestcase -->
+        <test-method is-config="true" signature="beforeTestCase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="beforeTestCase" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698307022117" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method is-config="true" signature="beforeTestcase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="beforeTestcase" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698307022124" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestcase -->
+        <test-method signature="verifyVT001CreateAccount()[pri:1, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="verifyVT001CreateAccount" finished-at="2023-10-26T13:27:02 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at com.eva.vtiger.testscripts.BaseTest.beforeTestcase(BaseTest.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVT001CreateAccount -->
+        <test-method is-config="true" signature="afterTestCase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="afterTestCase" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698307022138" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCase -->
+        <test-method is-config="true" signature="afterTestcase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="afterTestcase" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698307022142" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestcase -->
+        <test-method is-config="true" signature="beforeTestCase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="beforeTestCase" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698307022145" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method is-config="true" signature="beforeTestcase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="beforeTestcase" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698307022147" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestcase -->
+        <test-method signature="verifyVT003SearchAccount()[pri:2, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="verifyVT003SearchAccount" finished-at="2023-10-26T13:27:02 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at com.eva.vtiger.testscripts.BaseTest.beforeTestcase(BaseTest.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVT003SearchAccount -->
+        <test-method is-config="true" signature="afterTestCase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="afterTestCase" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698307022152" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCase -->
+        <test-method is-config="true" signature="afterTestcase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="afterTestcase" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698307022175" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestcase -->
+        <test-method is-config="true" signature="beforeTestCase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="beforeTestCase" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698307022179" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method is-config="true" signature="beforeTestcase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="beforeTestcase" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698307022182" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestcase -->
+        <test-method signature="verifyVT002DeleteAccount()[pri:3, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="verifyVT002DeleteAccount" finished-at="2023-10-26T13:27:02 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at com.eva.vtiger.testscripts.BaseTest.beforeTestcase(BaseTest.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVT002DeleteAccount -->
+        <test-method is-config="true" signature="afterTestCase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="afterTestCase" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698307022197" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCase -->
+        <test-method is-config="true" signature="afterTestcase()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="afterTestcase" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698307022199" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestcase -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1698307022204" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTestTag()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="afterTestTag" finished-at="2023-10-26T13:27:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestTag -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.eva.vtiger.testscripts.MarketingAccountTestScripts@f09733f]" started-at="2023-10-26T13:27:02 IST" name="afterSuite" finished-at="2023-10-26T13:27:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.eva.vtiger.testscripts.MarketingAccountTestScripts -->
+    </test> <!-- SalesSuite -->
+  </suite> <!-- Vtigerdamcode -->
+</testng-results>

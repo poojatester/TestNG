@@ -1,0 +1,8 @@
+com\eva\vtiger\dummy\Marketing.class
+com\eva\vtiger\dummy\School.class
+com\eva\vtiger\testscripts\InventryInvoiceTestScripts.class
+com\eva\vtiger\testscripts\BaseTest.class
+com\eva\vtiger\testscripts\MarketingAccountTestScripts.class
+com\eva\vtiger\testscripts\MarketingLeadsTestScripts.class
+com\eva\vtiger\dummy\Sale.class
+com\eva\vtiger\testscripts\TestingTestng.class
