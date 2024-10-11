@@ -1,0 +1,25 @@
+Hi ,
+my name is Pooja Yadav. I have about  3 years of experience in an it industry .My Current company name is daphnis software services Pvt ltd  and my current project is jumia.com which is an ecommerce based application.
+
+My current role is a QA Tester and I am majorily involved in all testin activities .
+in my current company my responsibility is to understand the requirement document like-- BRS or FRS whatever is available.   and with the help of these documents I write the test scenario and then I write thetest cases which covers all the functionality .
+after that I Review those test cases by my  QA Lead .
+Then I update those test cases based on the review if required .  after that  I execute those test cases and try to find out the defect If any defect is found I log that defect on the jira and get them fixed by developer. after that I also write the automation script  .
+I have experience in automation testing , functional testing , smoke testing sanity testing , regression testing  and mobile testing .
+
+In my current project I am working on selenium java with testNg framework in which I am using based hybrid framework . In pom we have seperate classess for every  test cases with their page objects.
+
+for build management tool I am using maven.
+for version control I am using git.
+I am using extent report for reporting purpose & I am using apache poi to write and read data from excel. 
+
+for defect management tool we have jira.
+
+I am working on agile environment . we have daily standup meeting . we have 2 week sprint life cycle . I am  part of   20 members in which there are 12 developers and 4 testers and remaining project manager , project technical manager , scrum master  extra.
+
+I take part in agile ceremonies like -- sprint planning meeting , daily scrum meeting , sprint review meeting , sprint retrospective meeting .
+
+I have experience in writting test cases ,  core-java  , selenium , postman , appium testNG ,apache POI and cucumber .
+
+That's all
+
